@@ -2,6 +2,10 @@
 
 [ ![Codeship Status for IngOscarGalvez/Prueba_Tecnica_PlaceToPay](https://app.codeship.com/projects/ce77d210-8f16-0136-145f-5ee276f9edda/status?branch=master)](https://app.codeship.com/projects/303960)
 
+You can see the running application on Heroku following this link
+
+https://prueba-tecnica-placetopay.herokuapp.com/
+
 # Getting started
 
 ## Installation

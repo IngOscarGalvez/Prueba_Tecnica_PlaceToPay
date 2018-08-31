@@ -13,4 +13,29 @@ class SoapTest extends TestCase
 
         $response->assertStatus(200);
     }
+
+    public function testTransaction()
+    {
+        $response = $this->get('trans');
+
+        $response->assertSuccessful();
+    }
+
+    public function testTransactionMC()
+    {
+        $response = $this->get('transmc');
+
+        $response->assertSuccessful();
+    }
+
+    public function testTransactionPost()
+    {
+        $response = $this->post('trasaction');
+
+        $response->assertStatus(302);
+
+        $response = $this->post('trasactionMultiCredit');
+
+        $response->assertStatus(302);
+    }
 }
